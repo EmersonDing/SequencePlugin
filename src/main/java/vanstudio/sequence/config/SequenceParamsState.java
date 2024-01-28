@@ -14,7 +14,7 @@ import java.util.List;
 
 @State(name = "sequenceParams", storages = {@Storage("sequencePlugin.xml")})
 public class SequenceParamsState implements PersistentStateComponent<SequenceParamsState> {
-    public int callDepth = 5;
+    public int callDepth = 9;
     public boolean projectClassesOnly = true;
     public boolean noGetterSetters = true;
     public boolean noPrivateMethods = false;
